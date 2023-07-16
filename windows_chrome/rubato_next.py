@@ -1,3 +1,4 @@
+# 브라우저 실행 => Next 버튼 누르는 예제
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
@@ -13,6 +14,7 @@ driver = webdriver.Chrome(options=options)
 driver.get("http://decoder.kr/book-rubato/")
 sleep(6)
 
+# next button을 가리는 menu-decoder 제거
 driver.execute_script("var menu = document.querySelector('#menu-decoder'); menu.parentNode.removeChild(menu);")
 
 for i in range(10):
