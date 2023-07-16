@@ -1,7 +1,7 @@
 ## 실행
 - chrome 및 chrome driver는 설정되어 있다고 가정
 - (`windows_chrome` 폴더에서)
-  - 브라우저 화면 보기: `python rubuto_next.py"  
+  - 브라우저 화면 보기: `python rubuto_next.py`
   - 브라우저 화면 없이: `python rubuto_next_headless.py`
 
 ## Problem & Solution
