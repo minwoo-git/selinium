@@ -8,3 +8,4 @@
 - 문제: next 버튼 클릭 시, `selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted` 발생
 - 원인: (Windows & Chrome 환경에서) next 버튼을 menu-decoder가 가림
 - 해결: next 버튼 클릭 전, menu-decoder 삭제
+  https://github.com/minwoo-git/selinium/blob/c1b8df698c2e52ebc12808c97a3f5abd5d99ebda/windows_chrome/rubato_next.py#L17-L18
